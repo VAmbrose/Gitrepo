@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Test Set Management spring.xml -->
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd 
+	http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.0.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd" >
+	
+	<!-- Have properties set by external property file. The last entry in the list takes precedence: -->
+    <bean id="placeholderConfig" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="searchSystemEnvironment" value="true"/>	<!-- Tell Spring to look at environment variables -->
+        <property name="systemPropertiesMode" value="2"/> <!-- Tell Spring environment variables take precedence: SYSTEM_PROPERTIES_MODE_OVERRIDE-->
+        <property name="locations">
+            <list>
+            	<!--  Commenetd By KARAN (Local) -->
+            <!-- 	<value>classpath:ETF_database.properties</value>
+                <value>classpath:ETF_ignore.properties</value>
+                <value>classpath:ETF_email.properties</value> -->  
+
+                 <value>file:ETF_ignore.properties</value>
+               	 <value>file:ETF_database.properties</value>
+                 <value>file:ETF_email.properties</value>
+            </list>
+        </property>
+    </bean>
+ 	
+	<!-- log4j setting -->
+	<bean id="log4jInitialization" class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">
+		<property name="targetClass" value="org.springframework.util.Log4jConfigurer" />
+		<property name="targetMethod" value="initLogging" />
+		<property name="arguments">
+			<list>
+				  <value>file:ETF_log4j.properties</value>  
+			<!-- 	 <value>classpath:ETF_log4j.properties</value> -->
+			</list>
+		</property>
+	</bean>
+	
+	<!-- Application Context provider -->
+ 	<bean id="appContext" class="com.etf.app.ApplicationContextProvider" />
+ 	
+ 	<!-- Application Data Sources -->
+    <!-- <bean id="dttDataSource" class="oracle.jdbc.pool.OracleDataSource" destroy-method="close">
+     	<property name="URL"            			value="${GTM_DBURL}"/>
+        <property name="user"          				value="${GTM_DBLOG}"/>
+        <property name="password"       			value="${GTM_DBPWD}"/>
+        <property name="explicitCachingEnabled"		value="true"/>
+		<property name="connectionCachingEnabled" 	value="true" />
+		<property name="connectionCacheProperties">       
+	  		<props merge="default">          
+	   			<prop key="MinLimit">3</prop>          
+	   			<prop key="MaxLimit">20</prop>
+		</property>
+    </bean> -->
+    
+    <bean id="dttDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+     	<property name="driverClassName" 			value="${ORA_DB_DRIVER}" />
+     	<property name="url"            			value="${GTM_DBURL}"/>
+        <property name="username"          			value="${GTM_DBLOG}"/>
+        <property name="password"       			value="${GTM_DBPWD}"/> 
+    </bean>
+    
+    <!-- <bean id="prodDttDataSource" class="oracle.jdbc.pool.OracleDataSource" destroy-method="close"> -->
+    <bean id="prodDttDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+     	<property name="driverClassName" 			value="${ORA_DB_DRIVER}" />
+     	<property name="url"            			value="${ORA_DB_URL}"/>
+        <property name="username"          			value="${ORA_DB_USERNAME}"/>
+        <property name="password"       			value="${ORA_DB_PASSWORD}"/>        
+    </bean>
+    
+    <bean id="emailProperties" class="com.etf.common.ETFEmailProperties">
+     	<property name="smtpServer"     		value="${FDX_SMTP_SERV}" />
+        <property name="smtpFrom"      			value="${FDX_SMTP_FROM}" />
+        <property name="smtpTo"  				value="${FDX_SMTP_TO}" />
+        <property name="totalLineToRead"  		value="${TOTAL_LINE_TO_READ}" />
+    </bean>
+    
+    <!-- Initialization for TransactionManager -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="prodDttDataSource" />
+	</bean>
+        
+	<!-- DAOs -->
+	<bean id="databaseQueryDAO" class="com.etf.dao.DatabaseQueryDAO">
+		<property name="dataSource" ref="prodDttDataSource" />
+		<property name="transactionManager" ref="transactionManager" />
+	</bean>
+	
+	<bean id="createTableDAO" class="com.etf.dao.CreateTableDAO">
+		<property name="dataSource" ref="dttDataSource" />
+		<property name="transactionManager" ref="transactionManager" />
+	</bean>
+	
+	<bean id="tableGenerationQueryDAO" class="com.etf.dao.TableGenerationQueryDAO">
+		<property name="dataSource" ref="dttDataSource" />
+		<property name="transactionManager" ref="transactionManager" />
+	</bean>
+	
+	<bean id="lookupDataDetailsDAO" class="com.etf.dao.LookupDataDetailsDAO">
+		<property name="dataSource" ref="dttDataSource" />
+		<property name="transactionManager" ref="transactionManager" />
+	</bean>
+		
+	<bean id="efiProperties" class="com.etf.common.ETFProperties" >		
+		<constructor-arg>
+			 <!--  <util:properties location="classpath:ETF.properties" /> -->
+			  <util:properties location="file:ETF.properties" />
+		</constructor-arg>
+	</bean>
+	
+	<bean id="efiTableProperties" class="com.etf.common.ETFTableProperties" >		
+		<constructor-arg>
+			<!--  <util:properties location="classpath:ETF_table.properties" /> -->
+			  <util:properties location="file:ETF_table.properties" />  
+		</constructor-arg>
+	</bean>
+</beans>

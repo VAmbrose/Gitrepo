@@ -1,0 +1,192 @@
+2020-10-05 22:34:21 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:34:21 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:34:21 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:34:21 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:34:21 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@448ff1a8: startup date [Mon Oct 05 22:34:21 IST 2020]; root of context hierarchy
+'2020-10-05 22:34:21 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:34:21 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:34:21 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:34:21 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:34:21 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:34:21 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:34:21 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:34:21 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:34:21 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@123f1134: startup date [Mon Oct 05 22:34:21 IST 2020]; root of context hierarchy
+'2020-10-05 22:34:21 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:34:21 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:34:21 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:34:21 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:34:21 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:34:21 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:34:21 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:34:21 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:34:22 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6f3b5d16: startup date [Mon Oct 05 22:34:22 IST 2020]; root of context hierarchy
+'2020-10-05 22:34:22 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:34:22 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:34:22 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:34:22 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:34:22 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:34:22 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:34:22 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:34:22 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:34:22 StartExternalTableFileProcess [INFO] ||--->> External File Import process started.
+'2020-10-05 22:34:22 StartExternalTableFileProcess [INFO] =========================================================================================
+'2020-10-05 22:34:22 StartExternalTableFileProcess [INFO] Please verify.
+'2020-10-05 22:34:22 StartExternalTableFileProcess [INFO] ----------------------------------------------------------------------------------------
+'2020-10-05 22:34:22 StartExternalTableFileProcess [INFO] Lookup Generation Command : java -jar EFI-jar-with-dependencies.jar GENERATE_LOOKUP
+'2020-10-05 22:34:22 StartExternalTableFileProcess [INFO] Import Files Command :      java -jar EFI-jar-with-dependencies.jar ALL_FILES [EXT_RSC_L2/EXT_RSC_L3/EXT_RSC_L5/EXT_REV_L2/EXT_REV_L3/EXT_REV_L5] [.txt/.out]
+'2020-10-05 22:34:22 StartExternalTableFileProcess [INFO] Activate Events Command :   java -jar EFI-jar-with-dependencies.jar EVENT_DATA
+'2020-10-05 22:34:22 StartExternalTableFileProcess [INFO] ||--->> External File Import process Completed.
+'2020-10-05 22:37:39 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:37:39 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:37:39 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:37:39 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:37:39 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a59ca5e: startup date [Mon Oct 05 22:37:39 IST 2020]; root of context hierarchy
+'2020-10-05 22:37:39 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:37:39 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:37:39 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:37:39 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:37:39 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:37:39 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27508c5d: startup date [Mon Oct 05 22:37:39 IST 2020]; root of context hierarchy
+'2020-10-05 22:37:39 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:37:39 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:37:39 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:37:39 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:37:39 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:37:39 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2049a9c1: startup date [Mon Oct 05 22:37:39 IST 2020]; root of context hierarchy
+'2020-10-05 22:37:39 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:37:39 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:37:40 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:37:40 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:37:40 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:37:40 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:37:40 StartExternalTableFileProcess [INFO] ||--->> External File Import process started.
+'2020-10-05 22:37:40 StartExternalTableFileProcess [INFO] [0] : EVENT_DATA
+'2020-10-05 22:37:40 EventDataProcessor [INFO] ||-->> All the process Started...
+
+'2020-10-05 22:37:40 EventDataProcessor [INFO] ||-->> Total folders found size : 2
+'2020-10-05 22:37:40 EventDataProcessor [INFO] ||-->> Watcher Started on Filder : D:/var/fedex/EXT_RSC_L3/
+'2020-10-05 22:37:40 FileMonitorTimer [INFO] processAllMessage called for Thread : Thread-1 On D:/var/fedex/EXT_RSC_L3/
+'2020-10-05 22:37:40 EventDataProcessor [INFO] ||-->> Watcher Started on Filder : D:/var/fedex/EXT_REV_L3/
+'2020-10-05 22:37:40 FileMonitorTimer [INFO] processAllMessage called for Thread : Thread-2 On D:/var/fedex/EXT_REV_L3/
+'2020-10-05 22:37:40 EventDataProcessor [INFO] ||-->> All the process completed successfully.
+
+'2020-10-05 22:37:40 StartExternalTableFileProcess [INFO] ||--->> External File Import process Completed.
+'2020-10-05 22:37:40 FileMonitorTimer [INFO] ||---> File import service running for  : D:/var/fedex/EXT_RSC_L3/ directory 
+
+'2020-10-05 22:37:40 FileMonitorTimer [INFO] ||---> Thread-1 : Monitoring directory 0 minuts
+
+'2020-10-05 22:37:40 FileMonitorTimer [INFO] ||---> File import service running for  : D:/var/fedex/EXT_REV_L3/ directory 
+
+'2020-10-05 22:37:40 FileMonitorTimer [INFO] ||---> Thread-2 : Monitoring directory 0 minuts
+
+'2020-10-05 22:39:59 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:39:59 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:39:59 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:39:59 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:39:59 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a59ca5e: startup date [Mon Oct 05 22:39:59 IST 2020]; root of context hierarchy
+'2020-10-05 22:39:59 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:39:59 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:39:59 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:39:59 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:39:59 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:39:59 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:39:59 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:39:59 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:39:59 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27508c5d: startup date [Mon Oct 05 22:39:59 IST 2020]; root of context hierarchy
+'2020-10-05 22:39:59 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:39:59 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:39:59 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:39:59 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:39:59 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:39:59 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:39:59 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:39:59 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:39:59 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2049a9c1: startup date [Mon Oct 05 22:39:59 IST 2020]; root of context hierarchy
+'2020-10-05 22:39:59 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:39:59 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:40:00 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:40:00 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:40:00 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:40:00 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:40:00 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:40:00 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:40:00 StartExternalTableFileProcess [INFO] ||--->> External File Import process started.
+'2020-10-05 22:40:00 StartExternalTableFileProcess [INFO] [0] : EVENT_DATA
+'2020-10-05 22:40:21 EventDataProcessor [INFO] ||-->> All the process Started...
+
+'2020-10-05 22:40:21 EventDataProcessor [INFO] ||-->> Total folders found size : 2
+'2020-10-05 22:40:21 EventDataProcessor [INFO] ||-->> Watcher Started on Filder : D:/var/fedex/EXT_RSC_L3/
+'2020-10-05 22:40:21 FileMonitorTimer [INFO] processAllMessage called for Thread : Thread-1 On D:/var/fedex/EXT_RSC_L3/
+'2020-10-05 22:40:21 EventDataProcessor [INFO] ||-->> Watcher Started on Filder : D:/var/fedex/EXT_REV_L3/
+'2020-10-05 22:40:21 FileMonitorTimer [INFO] processAllMessage called for Thread : Thread-2 On D:/var/fedex/EXT_REV_L3/
+'2020-10-05 22:40:21 EventDataProcessor [INFO] ||-->> All the process completed successfully.
+
+'2020-10-05 22:40:21 FileMonitorTimer [INFO] ||---> File import service running for  : D:/var/fedex/EXT_RSC_L3/ directory 
+
+'2020-10-05 22:40:21 FileMonitorTimer [INFO] ||---> Thread-1 : Monitoring directory 0 minuts
+
+'2020-10-05 22:40:21 FileMonitorTimer [INFO] ||---> File import service running for  : D:/var/fedex/EXT_REV_L3/ directory 
+
+'2020-10-05 22:40:21 FileMonitorTimer [INFO] ||---> Thread-2 : Monitoring directory 0 minuts
+
+'2020-10-05 22:41:19 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:41:19 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:41:19 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:41:19 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:41:19 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a59ca5e: startup date [Mon Oct 05 22:41:19 IST 2020]; root of context hierarchy
+'2020-10-05 22:41:19 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:41:19 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:41:19 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:41:19 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:41:19 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:41:19 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@27508c5d: startup date [Mon Oct 05 22:41:19 IST 2020]; root of context hierarchy
+'2020-10-05 22:41:19 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:41:19 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:41:19 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:41:19 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:41:19 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:41:19 ClassPathXmlApplicationContext [INFO] Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2049a9c1: startup date [Mon Oct 05 22:41:19 IST 2020]; root of context hierarchy
+'2020-10-05 22:41:19 XmlBeanDefinitionReader [INFO] Loading XML bean definitions from class path resource [spring.xml]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_database.properties]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_ignore.properties]
+'2020-10-05 22:41:19 PropertyPlaceholderConfigurer [INFO] Loading properties file from class path resource [ETF_email.properties]
+'2020-10-05 22:41:19 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:41:19 DriverManagerDataSource [INFO] Loaded JDBC driver: oracle.jdbc.driver.OracleDriver
+'2020-10-05 22:41:19 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF.properties]
+'2020-10-05 22:41:19 PropertiesFactoryBean [INFO] Loading properties file from class path resource [ETF_table.properties]
+'2020-10-05 22:41:19 StartExternalTableFileProcess [INFO] ||--->> External File Import process started.
+'2020-10-05 22:41:19 StartExternalTableFileProcess [INFO] [0] : EVENT_DATA
+'2020-10-05 22:41:32 EventDataProcessor [INFO] ||-->> All the process Started...
+
+'2020-10-05 22:45:31 EventDataProcessor [INFO] ||-->> Total folders found size : 2
+'2020-10-05 22:46:18 EventDataProcessor [INFO] ||-->> Watcher Started on Filder : D:/var/fedex/EXT_RSC_L3/
+'2020-10-05 22:46:20 FileMonitorTimer [INFO] processAllMessage called for Thread : Thread-1 On D:/var/fedex/EXT_RSC_L3/
+'2020-10-05 22:46:20 FileMonitorTimer [INFO] ||---> File import service running for  : D:/var/fedex/EXT_RSC_L3/ directory 
+
+'2020-10-05 22:46:20 FileMonitorTimer [INFO] ||---> Thread-1 : Monitoring directory 0 minuts
+
+'2020-10-05 22:46:35 EventDataProcessor [INFO] ||-->> Watcher Started on Filder : D:/var/fedex/EXT_REV_L3/
+'2020-10-05 22:47:23 FileMonitorTimer [INFO] processAllMessage called for Thread : Thread-2 On D:/var/fedex/EXT_REV_L3/
+'2020-10-05 22:47:27 FileMonitorTimer [INFO] ||---> File import service running for  : D:/var/fedex/EXT_REV_L3/ directory 
+
+'2020-10-05 22:47:27 FileMonitorTimer [INFO] ||---> Thread-2 : Monitoring directory 0 minuts
+
+'2020-10-05 22:47:38 EventDataProcessor [INFO] ||-->> All the process completed successfully.
+
+'2020-10-05 22:47:43 StartExternalTableFileProcess [INFO] ||--->> External File Import process Completed.
+'
